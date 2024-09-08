@@ -53,8 +53,8 @@ class MenusServiceProvider extends ServiceProvider
         $this->app->register('Collective\Html\HtmlServiceProvider');
 
         $aliases = [
-            'HTML' => 'Collective\Html\HtmlFacade',
-            'Form' => 'Collective\Html\FormFacade',
+            'HTML' => 'LaravelLux\Html\HtmlFacade',
+            'Form' => 'LaravelLux\Html\FormFacade',
         ];
 
         AliasLoader::getInstance($aliases)->register();

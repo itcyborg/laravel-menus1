@@ -2,7 +2,7 @@
 
 namespace Nwidart\Menus\Tests;
 
-use Collective\Html\HtmlServiceProvider;
+use LaravelLux\Html\HtmlServiceProvider;
 use Nwidart\Menus\MenusServiceProvider;
 use Orchestra\Testbench\TestCase as OrchestraTestCase;
 
