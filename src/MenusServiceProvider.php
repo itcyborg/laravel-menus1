@@ -50,7 +50,7 @@ class MenusServiceProvider extends ServiceProvider
      */
     private function registerHtmlPackage()
     {
-        $this->app->register('Collective\Html\HtmlServiceProvider');
+        $this->app->register('LaravelLux\Html\HtmlServiceProvider');
 
         $aliases = [
             'HTML' => 'LaravelLux\Html\HtmlFacade',
